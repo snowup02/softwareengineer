@@ -7,7 +7,7 @@ html {
 }
 
 body {
-            background-color: black;
+            background-image: url("images/bgbg.jpg");
             color: white;
             margin: 0;
             padding: 0;
@@ -1539,3 +1539,4 @@ body {
     background-color: red;
     height: 400px;
 }
+
