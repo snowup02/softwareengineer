@@ -7,21 +7,10 @@ html {
 }
 
 body {
-            background-image: url("images/bgbg.jpg");
-            color: white;
+            background-color: #0496c7;       
             margin: 0;
-            padding: 0;
-            
         }
 
-        header {
-            background-image: url("images/bgbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
 
         .navbar {
             width: 100%;
@@ -67,13 +56,12 @@ body {
     position: absolute; 
     white-space: nowrap;
     overflow: hidden;
-    width: 0;
     white-space: pre-wrap;
     line-height: 0.8;
     animation: blink 0.7s step-end infinite;
     font-size: 50px;
     top: 150px; /* adjust as needed */
-    left: 570px; /* same as before */
+    left: 545px; /* same as before */
 }
 @keyframes blink {
     50% { border-color: transparent; }
@@ -86,8 +74,8 @@ body {
     height: 110px;
     border: 1px solid #131414;
     border-radius: 15px;
-    margin-top: -160px;
-    margin-left: 560px;
+    margin-top: -140px;
+    margin-left: 540px;
     opacity: 80%;
 }
 .aboutme {
@@ -99,469 +87,17 @@ body {
 }
 
         .me {
-            margin-top: 160px;
+            margin-top: 190px;
             margin-left: 290px;
             width: 190px;
             height: 200px;
-            border: 35px solid #021b3a;
+            border: 15px solid rgba(0, 0, 0, 0.5);
             border-radius: 100%;   
-        }
-        @media only screen and (max-width: 1135px){
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 150px; /* adjust as needed */
-    left: 455px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 550px;
-    height: 110px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: -160px;
-    margin-left: 450px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 20px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 160px;
-            margin-left: 170px;
-            width: 190px;
-            height: 200px;
-            border: 35px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        @media only screen and (max-width: 1021px){
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 150px; /* adjust as needed */
-    left: 395px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 550px;
-    height: 110px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: -160px;
-    margin-left: 390px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 20px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 160px;
-            margin-left: 120px;
-            width: 190px;
-            height: 200px;
-            border: 35px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        @media only screen and (max-width: 958px){
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 150px; /* adjust as needed */
-    left: 355px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 550px;
-    height: 110px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: -160px;
-    margin-left: 350px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 20px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 160px;
-            margin-left: 80px;
-            width: 190px;
-            height: 200px;
-            border: 35px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        @media only screen and (max-width: 920px){
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 140px; /* adjust as needed */
-    left: 305px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 510px;
-    height: 70px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: -120px;
-    margin-left: 300px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 15px;
-    margin-top: -10px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 160px;
-            margin-left: 80px;
-            width: 160px;
-            height: 170px;
-            border: 25px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        @media only screen and (max-width: 830px){
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 50px; /* adjust as needed */
-    left: 305px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 300px;
-    height: 90px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: 300px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 15px;
-    margin-top: -10px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 200px;
-            margin-left: 330px;
-            width: 160px;
-            height: 170px;
-            border: 25px solid #021b3a;
-            border-radius: 100%;   
-        }}
-         @media only screen and (max-width: 770px){
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 50px; /* adjust as needed */
-    left: 215px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 300px;
-    height: 90px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: 200px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 15px;
-    margin-top: -10px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 200px;
-            margin-left: 240px;
-            width: 160px;
-            height: 170px;
-            border: 25px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        @media only screen and (max-width: 700px){
-            .navbar {
-            width: 100%;
-            z-index: 1000;
-            position: fixed;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: hsl(0, 0%, 100%);
-        }
-        .navdiv {
-            padding-top: 5px;
-            padding-right: 5px;
-            padding-bottom: 5px;
-            padding-left: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-                        
-        }
-        .edric a {
-            font-size: 15px;
-            font-weight: 600;
-            color: white;
-        }
-        .edric a:hover {
-            text-shadow: 0 0 5px rgb(234, 234, 236);
-        }
-        li a:hover {
-            text-shadow: 0 0 5px rgb(234, 234, 236);
-
-        }
-        li {
-            
-            list-style: none;
-            display: inline-block;
-        }
-        li a {
-            margin-top: 0px;
-            margin-right: 15px;
-            color: white;
-            font-size: 10px;
-            font-weight: bold;
-        }
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 50px; /* adjust as needed */
-    left: 215px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 300px;
-    height: 90px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: 200px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 15px;
-    margin-top: -10px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 200px;
-            margin-left: 240px;
-            width: 160px;
-            height: 170px;
-            border: 25px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        @media only screen and (max-width: 660px){
-            .navbar {
-            width: 100%;
-            z-index: 1000;
-            position: fixed;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: hsl(0, 0%, 100%);
-        }
-        .navdiv {
-            padding-top: 5px;
-            padding-right: 5px;
-            padding-bottom: 5px;
-            padding-left: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-                        
-        }
-        .edric a {
-            font-size: 15px;
-            font-weight: 600;
-            color: white;
-        }
-        .edric a:hover {
-            text-shadow: 0 0 5px rgb(234, 234, 236);
-        }
-        li a:hover {
-            text-shadow: 0 0 5px rgb(234, 234, 236);
-
-        }
-        li {
-            
-            list-style: none;
-            display: inline-block;
-        }
-        li a {
-            margin-top: 0px;
-            margin-right: 15px;
-            color: white;
-            font-size: 10px;
-            font-weight: bold;
-        }
-            .software {
-    position: absolute; 
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    white-space: pre-wrap;
-    line-height: 0.8;
-    animation: blink 0.7s step-end infinite;
-    font-size: 50px;
-    top: 50px; /* adjust as needed */
-    left: 190px; /* same as before */
-}
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-.box {
-    position: relative; 
-    padding-top: 20px;
-    background-color: #e8eced;
-    width: 300px;
-    height: 90px;
-    border: 1px solid #131414;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: 185px;
-    opacity: 80%;
-}
-.aboutme {
-    text-align: center;
-    color: rgb(0, 0, 10);
-    font-size: 15px;
-    margin-top: -10px;
-    margin-left: 0px;
-}
-
-        .me {
-            margin-top: 200px;
-            margin-left: 215px;
-            width: 160px;
-            height: 170px;
-            border: 25px solid #021b3a;
-            border-radius: 100%;   
-        }}
-        
-        
-
-
-
-
-
-
-
-
-        .skills {
-            background-image: url("images/skillsbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
         }
         .skilltext {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
-            margin-top: 0px;
+            margin-top: 100px;
             margin-left: 625px;
             width: 120px;
             height: 30px;
@@ -579,7 +115,7 @@ body {
         position: absolute; 
         text-align: center;
         margin-left: 200px;
-        margin-top: 200px;
+        margin-top: 100px;
         white-space: pre-wrap;
         color: rgb(241, 237, 237);
         }
@@ -594,7 +130,7 @@ body {
   height: 300px;
   border: 1px solid #0c0d0e;
   border-radius: 15px;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-left: 600px;
   overflow-y: auto;
   display: grid;
@@ -611,343 +147,12 @@ body {
   border-radius: 50px;
   object-fit: cover;
 }
-@media only screen and (max-width: 1222px) {
-    .skills {
-            background-image: url("images/skillsbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .skilltext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 500px;
-            width: 120px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-left: 50px;
-            padding-top: 10px;
-        }
-        
-        #pasikat {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        width: 380px;
-        height: 100px;
-        padding-top: 10px;
-        position: absolute; 
-        text-align: center;
-        margin-left: 120px;
-        margin-top: 200px;
-        white-space: pre-wrap;
-        color: rgb(241, 237, 237);
-        }
 
 
-
-        .skillbox {
-  position: relative; 
-  padding-top: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 600px;
-  height: 300px;
-  border: 1px solid #0c0d0e;
-  border-radius: 15px;
-  margin-top: 100px;
-  margin-left: 520px;
-  overflow-y: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Controls the space between images */
-  justify-items: center; /* Centers images horizontally in each cell */
-}
-
-/* General style for all logos */
-.skillbox img {
-  width: 110px;
-  height: 110px;
-  border: 5px solid black;
-  border-radius: 50px;
-  object-fit: cover;
-}
-}
-@media only screen and (max-width: 1140px) {
-    .skills {
-            background-image: url("images/skillsbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .skilltext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 450px;
-            width: 120px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-left: 50px;
-            padding-top: 10px;
-        }
-        
-        #pasikat {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        width: 300px;
-        height: 150px;
-        padding-top: 15px;
-        position: absolute; 
-        text-align: center;
-        margin-left: 120px;
-        margin-top: 200px;
-        white-space: pre-wrap;
-        color: rgb(241, 237, 237);
-        }
-
-
-
-        .skillbox {
-  position: relative; 
-  padding-top: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 500px;
-  height: 200px;
-  border: 1px solid #0c0d0e;
-  border-radius: 15px;
-  margin-top: 180px;
-  margin-left: 430px;
-  overflow-y: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Controls the space between images */
-  justify-items: center; /* Centers images horizontally in each cell */
-}
-
-/* General style for all logos */
-.skillbox img {
-  width: 80px;
-  height: 80px;
-  border: 5px solid black;
-  border-radius: 50px;
-  object-fit: cover;
-}
-}
-@media only screen and (max-width: 950px) {
-    .skills {
-            background-image: url("images/skillsbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .skilltext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 370px;
-            width: 120px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-left: 50px;
-            padding-top: 10px;
-        }
-        
-        #pasikat {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        width: 200px;
-        height: 200px;
-        padding-top: 15px;
-        position: absolute; 
-        text-align: center;
-        margin-left: 180px;
-        margin-top: 150px;
-        white-space: pre-wrap;
-        color: rgb(241, 237, 237);
-        }
-
-
-
-        .skillbox {
-  position: relative; 
-  padding-top: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 320px;
-  height: 150px;
-  border: 1px solid #0c0d0e;
-  border-radius: 15px;
-  margin-top: 190px;
-  margin-left: 390px;
-  overflow-y: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Controls the space between images */
-  justify-items: center; /* Centers images horizontally in each cell */
-}
-
-/* General style for all logos */
-.skillbox img {
-  width: 50px;
-  height: 50px;
-  border: 5px solid black;
-  border-radius: 50px;
-  object-fit: cover;
-}
-}
-@media only screen and (max-width: 750px) {
-    .skills {
-            background-image: url("images/skillsbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .skilltext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 270px;
-            width: 120px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-left: 50px;
-            padding-top: 10px;
-        }
-        
-        #pasikat {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        width: 200px;
-        height: 200px;
-        padding-top: 15px;
-        position: absolute; 
-        text-align: center;
-        margin-left: 100px;
-        margin-top: 150px;
-        white-space: pre-wrap;
-        color: rgb(241, 237, 237);
-        }
-
-
-
-        .skillbox {
-  position: relative; 
-  padding-top: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 320px;
-  height: 150px;
-  border: 1px solid #0c0d0e;
-  border-radius: 15px;
-  margin-top: 190px;
-  margin-left: 320px;
-  overflow-y: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Controls the space between images */
-  justify-items: center; /* Centers images horizontally in each cell */
-}
-
-/* General style for all logos */
-.skillbox img {
-  width: 50px;
-  height: 50px;
-  border: 5px solid black;
-  border-radius: 50px;
-  object-fit: cover;
-}
-}
-@media only screen and (max-width: 660px) {
-    .skills {
-            background-image: url("images/skillsbg.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .skilltext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 250px;
-            width: 120px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-left: 50px;
-            padding-top: 10px;
-        }
-        
-        #pasikat {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        width: 320px;
-        height: 100px;
-        padding-top: 10px;
-        position: absolute; 
-        text-align: center;
-        margin-left: 170px;
-        margin-top: 300px;
-        white-space: pre-wrap;
-        color: rgb(241, 237, 237);
-        }
-
-
-
-        .skillbox {
-  position: relative; 
-  padding-top: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 320px;
-  height: 150px;
-  border: 1px solid #0c0d0e;
-  border-radius: 15px;
-  margin-top: 90px;
-  margin-left: 170px;
-  overflow-y: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Controls the space between images */
-  justify-items: center; /* Centers images horizontally in each cell */
-}
-
-/* General style for all logos */
-.skillbox img {
-  width: 50px;
-  height: 50px;
-  border: 5px solid black;
-  border-radius: 50px;
-  object-fit: cover;
-}
-}
-
-
-
-
-
-
-
-
-
-
-        .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
         .educationtext {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
-            margin-top: 0px;
+            margin-top: 100px;
             margin-left: 620px;
             width: 150px;
             height: 30px;
@@ -980,300 +185,337 @@ body {
             margin-top: -470px;
             gap: 10px;
         }
-        @media only screen and (max-width: 1300px){
-            .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .educationtext {
+        .contacttext {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 510px;
-            width: 150px;
+            margin-top: 100px;
+            margin-left: 640px;
+            width: 120px;
             height: 30px;
             color: rgb(240, 235, 235);
             padding-top: 10px;
-            padding-left: 35px;
+            padding-left: 27px;
         }
-        .educationbox {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-left: 20px;
-            padding-top: 20px;
-            margin-top: 0px;
-            border-radius: 20px;
-            margin-left: 290px;
-            width: 600px;
-            height: 500px;
-            overflow-x: auto;
-            display: grid;
-        }
-        .educationbox img {
-            width: 100px;
-            height: 100px;
-            border: 5px solid black;
-            border-radius: 100px;
-        }
-        .achievements {
-            display: grid;
-            overflow-x: auto;
-            padding-left: 135px;
-            margin-top: -470px;
-            gap: 10px;
-        }
-        }
-        @media only screen and (max-width: 1050px){
-            .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .educationtext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 430px;
-            width: 150px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-top: 10px;
-            padding-left: 35px;
-        }
-        .educationbox {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-left: 20px;
-            padding-top: 20px;
-            margin-top: 0px;
-            border-radius: 20px;
-            margin-left: 220px;
-            width: 600px;
-            height: 500px;
-            overflow-x: auto;
-            display: grid;
-        }
-        .educationbox img {
-            width: 100px;
-            height: 100px;
-            border: 5px solid black;
-            border-radius: 100px;
-        }
-        .achievements {
-            display: grid;
-            overflow-x: auto;
-            padding-left: 135px;
-            margin-top: -470px;
-            gap: 10px;
-        }
-        }
-        @media only screen and (max-width: 985px){
-            .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .educationtext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 380px;
-            width: 150px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-top: 10px;
-            padding-left: 35px;
-        }
-        .educationbox {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-left: 20px;
-            padding-top: 20px;
-            margin-top: 0px;
-            border-radius: 20px;
-            margin-left: 160px;
-            width: 600px;
-            height: 500px;
-            overflow-x: auto;
-            display: grid;
-        }
-        .educationbox img {
-            width: 100px;
-            height: 100px;
-            border: 5px solid black;
-            border-radius: 100px;
-        }
-        .achievements {
-            display: grid;
-            overflow-x: auto;
-            padding-left: 135px;
-            margin-top: -470px;
-            gap: 10px;
-        }
-        }
-        @media only screen and (max-width: 810px){
-            .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .educationtext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 320px;
-            width: 150px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-top: 10px;
-            padding-left: 35px;
-        }
-        .educationbox {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-left: 20px;
-            padding-top: 20px;
-            margin-top: 0px;
-            border-radius: 20px;
-            margin-left: 200px;
-            width: 400px;
-            height: 450px;
-            overflow-x: auto;
-            display: grid;
-        }
-        .educationbox img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100px;
-        }
-        .achievements {
-            display: grid;
-            overflow-x: auto;
-            padding-left: 120px;
-            margin-top: -470px;
-            gap: 0px;
-        }
-        }
-        @media only screen and (max-width: 680px){
-            .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .educationtext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 270px;
-            width: 150px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-top: 10px;
-            padding-left: 35px;
-        }
-        .educationbox {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-left: 20px;
-            padding-top: 20px;
-            margin-top: 0px;
-            border-radius: 20px;
+        .connect {
+            font-size: 40px;
+            margin-top: -335px;
             margin-left: 150px;
-            width: 400px;
-            height: 450px;
-            overflow-x: auto;
-            display: grid;
         }
-        .educationbox img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100px;
+        .getin {
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
         }
-        .achievements {
-            display: grid;
-            overflow-x: auto;
-            padding-left: 120px;
-            margin-top: -470px;
-            gap: 0px;
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1200px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 145px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.location-wrapper {
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 100px){
+    body {
+            background-color: #193a7b;      
+            margin: 0;
         }
-        }
-        @media only screen and (max-width: 620px){
-            .education {
-            background-image: url(images/educbg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+
+
+        .navbar {
+            height: 50px;
             width: 100%;
-            height: 90vh;
-        }
-        .educationtext {
+            z-index: 1000;
+            position: fixed;
             background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 0px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 8px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
             margin-top: 0px;
-            margin-left: 250px;
-            width: 140px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-top: 10px;
-            padding-left: 35px;
+            margin-right: 15px;
+            color: white;
+            font-size: 7px;
+            font-weight: bold;
         }
-        .educationbox {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-left: 20px;
-            padding-top: 20px;
-            margin-top: 0px;
-            border-radius: 20px;
-            margin-left: 170px;
-            width: 300px;
-            height: 450px;
-            overflow-x: auto;
-            display: grid;
-        }
-        .educationbox img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100px;
-        }
-        .achievements {
-            display: grid;
-            overflow-x: auto;
-            padding-left: 120px;
-            margin-top: -470px;
-            gap: 0px;
-        }
-        }
-
-
-
-
-
-
         
+        
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 45px;
+    top: 260px; /* adjust as needed */
+    left: 80px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 300px;
+    height: 180px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 95px;
+    margin-left: 70px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+        .me {
+            margin-top: 100px;
+            margin-left: 120px;
+            width: 150px;
+            height: 155px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 130px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        width: 380px;
+        height: 100px;
+        padding-top: 10px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 250px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
 
 
-        .contact {
-            background-image: url(images/contactbgggggggg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
+
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 250px;
+  height: 200px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 90px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 60px;
+  height: 60px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 180px;
+            margin-left: 140px;
+            width: 150px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 35px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            padding-top: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 0px;
+            width: 600px;
+            height: 550px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            font-size: 17px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 135px;
+            padding-bottom: 60px;
+            gap: 40px;
         }
         .contacttext {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
-            margin-top: 0px;
+            margin-top: 100px;
             margin-left: 640px;
             width: 120px;
             height: 30px;
@@ -1282,11 +524,13 @@ body {
             padding-left: 27px;
         }
         .connect {
+            color: white;
             font-size: 40px;
             margin-top: -335px;
             margin-left: 150px;
         }
         .getin {
+            color: white;
             font-size: 40px;
             margin-top: -60px;
             margin-left: 740px;
@@ -1297,8 +541,8 @@ body {
     height: 300px;
   width: 1200px;
   border-radius: 40px;
-  margin-top: 100px;
-  margin-left: 145px;
+  margin-top: 10px;
+  margin-left: 0px;
   padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -1329,6 +573,7 @@ body {
   cursor: pointer;
 }
 .getintext {
+    color: white;
     width: 600px;
     height: 370px;
     font-size: 20px;
@@ -1339,6 +584,7 @@ body {
     
 }
 .location-wrapper {
+    color: white;
   position: relative;
   height: 100px; /* or wherever it's going */
 }
@@ -1351,6 +597,7 @@ body {
   color: #eeeeef;
 }
 .call-wrapper {
+    color: white;
   position: relative;
   height: 30px; /* or wherever it's going */
 }
@@ -1362,6 +609,7 @@ body {
   color: rgb(245, 242, 242);
 }
 .mail-wrapper {
+    color: white;
   position: relative;
   height: 30px; /* or wherever it's going */
 }
@@ -1389,150 +637,6 @@ body {
     font-size: 13px;
     top: -290px;
     left: 681px;  
-}
-@media only screen and (max-width:1370px){
-    .contact {
-            background-image: url(images/contactbgggggggg.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 90vh;
-        }
-        .contacttext {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 50px;
-            margin-top: 0px;
-            margin-left: 640px;
-            width: 120px;
-            height: 30px;
-            color: rgb(240, 235, 235);
-            padding-top: 10px;
-            padding-left: 27px;
-        }
-        .connect {
-            font-size: 40px;
-            margin-top: -335px;
-            margin-left: 150px;
-        }
-        .getin {
-            font-size: 40px;
-            margin-top: -60px;
-            margin-left: 740px;
-        }
-
-#contactsetup {
-    font-size: 20px;
-    height: 300px;
-  width: 1200px;
-  border-radius: 40px;
-  margin-top: 100px;
-  margin-left: 145px;
-  padding-top: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#contactsetup form {
-    margin-left: 100px;
-    margin-top: -30px;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-}
-
-#contactsetup input, #contactsetup textarea{
-  border-radius: 10px;
-  padding: 10px;
-  margin: 15px;
-  font-size: 16px;
-}
-
-#contactsetup button {
-  border-radius: 10px;
-  margin-top: 15px;
-  padding: 10px;
-  font-size: 18px;
-  background-color: #2820b3;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.getintext {
-    width: 600px;
-    height: 370px;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 5px;
-    margin-left: 550px;
-    
-}
-.location-wrapper {
-  position: relative;
-  height: 100px; /* or wherever it's going */
-}
-
-.location-wrapper .material-icons {
-  position: absolute;
-  top: -220px;
-  left: 650px;
-  font-size: 20px;
-  color: #eeeeef;
-}
-.call-wrapper {
-  position: relative;
-  height: 30px; /* or wherever it's going */
-}
-.call-wrapper .material-icons {
-  position: absolute;
-  top: -290px;
-  left: 653px;
-  font-size: 20px;
-  color: rgb(245, 242, 242);
-}
-.mail-wrapper {
-  position: relative;
-  height: 30px; /* or wherever it's going */
-}
-.mail-wrapper .material-icons {
-  position: absolute;
-  top: -293px;
-  left: 653px;
-  font-size: 20px;
-  color: rgb(245, 242, 242);
-}
-.loc {
-    position: absolute;
-    font-size: 13px;
-    top: -217px;
-    left: 680px;
-}
-.number {
-    position: absolute;
-    font-size: 13px;
-    top: -287px;
-    left: 681px;
-}
-.gmail {
-    position: absolute;
-    font-size: 13px;
-    top: -290px;
-    left: 681px;  
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer {
@@ -1540,4 +644,4029 @@ body {
     height: 400px;
 }
 
+}}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 150px){
+    body {
+            background-color: #193a7b;      
+            margin: 0;
+        }
+        .navbar {
+            height: 50px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 0px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 8px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        
+        
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 45px;
+    top: 260px; /* adjust as needed */
+    left: 260px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 300px;
+    height: 180px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 95px;
+    margin-left: 250px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+        .me {
+            margin-top: 100px;
+            margin-left: 300px;
+            width: 150px;
+            height: 155px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 320px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        width: 380px;
+        height: 100px;
+        padding-top: 10px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 210px;
+        margin-top: 250px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 250px;
+  height: 200px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 270px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 60px;
+  height: 60px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 180px;
+            margin-left: 310px;
+            width: 150px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 35px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 50px;
+            width: 600px;
+            height: 500px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 100px;
+            height: 100px;
+            gap: 20px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 40px;
+            padding-bottom: 70px;
+            font-size: 17px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 135px;
+            margin-top: -470px;
+            gap: 30px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 250px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 40px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1200px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 200px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 50px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 0px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 8px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 100px;
+            margin-left: 330px;
+            width: 150px;
+            height: 155px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 45px;
+    top: 260px; /* adjust as needed */
+    left: 280px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 300px;
+    height: 180px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 95px;
+    margin-left: 270px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 340px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        width: 380px;
+        height: 100px;
+        padding-top: 10px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 230px;
+        margin-top: 250px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 250px;
+  height: 200px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 290px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 60px;
+  height: 60px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 180px;
+            margin-left: 340px;
+            width: 150px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 35px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 120px;
+            width: 600px;
+            height: 500px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 100px;
+            height: 100px;
+            gap: 20px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 40px;
+            padding-bottom: 70px;
+            font-size: 17px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 135px;
+            margin-top: -470px;
+            gap: 30px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 380px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 40px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1000px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 50px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 0px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 8px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 100px;
+            margin-left: 440px;
+            width: 150px;
+            height: 155px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 45px;
+    top: 260px; /* adjust as needed */
+    left: 410px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 300px;
+    height: 180px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 95px;
+    margin-left: 390px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 450px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        width: 380px;
+        height: 100px;
+        padding-top: 10px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 350px;
+        margin-top: 250px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 250px;
+  height: 200px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 410px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 60px;
+  height: 60px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 180px;
+            margin-left: 440px;
+            width: 150px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 35px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 230px;
+            width: 600px;
+            height: 500px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 100px;
+            height: 100px;
+            gap: 20px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 40px;
+            padding-bottom: 70px;
+            font-size: 17px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 135px;
+            margin-top: -470px;
+            gap: 30px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 510px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 40px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1200px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px){
+    body {
+            background-color: #193a7b;      
+            margin: 0;
+        }
+        .navbar {
+            height: 70px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 10px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 100px;
+            margin-left: 500px;
+            width: 300px;
+            height: 305px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 60px;
+    top: 410px; /* adjust as needed */
+    left: 500px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 900px;
+    height: 390px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 135px;
+    margin-left: 220px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 530px;
+            font-size: 50px;
+            width: 220px;
+            height: 70px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 880px;
+        height: 240px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 230px;
+        margin-top: 550px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  height: 500px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 260px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 350px;
+            margin-left: 470px;
+            font-size: 50px;
+            width: 350px;
+            height: 70px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 230px;
+            width: 900px;
+            height: 700px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 20px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 100px;
+            font-size: 24px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -770px;
+            gap: 20px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 610px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 40px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1200px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 200px;
+            margin-left: 150px;
+            width: 370px;
+            height: 385px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 70px;
+    top: 150px; /* adjust as needed */
+    left: 580px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -280px;
+    margin-left: 580px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 740px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 600px;
+        height: 350px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 130px;
+        margin-top: 10px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 650px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 780px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 700px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 200px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 50px;
+            width: 1300px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 760px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -130px;
+            margin-left: 1000px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1500px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 850px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -110px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -168px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -158px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -100px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -162px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -160px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1800px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 200px;
+            margin-left: 270px;
+            width: 370px;
+            height: 385px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+    color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 70px;
+    top: 150px; /* adjust as needed */
+    left: 700px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -280px;
+    margin-left: 690px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 900px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 800px;
+        height: 250px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 60px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 650px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 980px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 865px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 50px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 275px;
+            width: 1300px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 880px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -130px;
+            margin-left: 1000px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1500px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 200px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 850px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -110px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -168px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -158px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -100px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -162px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -160px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1900px){
+    body {
+            background-color: #193a7b;      
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 350px;
+            margin-left: 370px;
+            width: 420px;
+            height: 445px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 80px;
+    top: 300px; /* adjust as needed */
+    left: 860px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -320px;
+    margin-left: 860px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1050px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 600px;
+        height: 350px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 400px;
+        margin-top: 10px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 650px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 1050px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1000px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 350px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 105px;
+            width: 1574px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1050px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -70px;
+            margin-left: 1140px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1710px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 200px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 800px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 840px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -210px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -268px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -258px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -200px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -262px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -260px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 2100px){
+    body {
+            background-color: #193a7b;     
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 350px;
+            margin-left: 420px;
+            width: 420px;
+            height: 445px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 80px;
+    top: 300px; /* adjust as needed */
+    left: 900px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -320px;
+    margin-left: 890px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1100px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 600px;
+        height: 350px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 470px;
+        margin-top: 10px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 650px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 1100px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1050px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 350px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 130px;
+            width: 1574px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1100px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -70px;
+            margin-left: 1140px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1710px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 210px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 800px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 840px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -210px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -268px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -258px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -200px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -262px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -260px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 2200px){
+    body {
+            background-color: #193a7b;     
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 350px;
+            margin-left: 480px;
+            width: 420px;
+            height: 445px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 80px;
+    top: 300px; /* adjust as needed */
+    left: 950px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -320px;
+    margin-left: 950px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1150px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 600px;
+        height: 350px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 440px;
+        margin-top: 10px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 790px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 1050px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1050px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 350px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 150px;
+            width: 1574px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1100px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -365px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -70px;
+            margin-left: 1140px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1710px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 260px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 800px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 840px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -210px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -268px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -258px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -200px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -262px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -260px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 2500px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 350px;
+            margin-left: 620px;
+            width: 420px;
+            height: 445px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+    position: absolute; 
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 80px;
+    top: 300px; /* adjust as needed */
+    left: 1110px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -320px;
+    margin-left: 1100px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1300px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 900px;
+        height: 230px;
+        padding-top: 33px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 430px;
+        margin-top: 40px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 790px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 1380px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1265px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 350px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 360px;
+            width: 1574px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1325px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -365px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -70px;
+            margin-left: 1140px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1710px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 470px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 800px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 840px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -210px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -268px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -258px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -200px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -262px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -260px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 2750px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 350px;
+            margin-left: 730px;
+            width: 420px;
+            height: 445px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+    position: absolute; 
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 80px;
+    top: 300px; /* adjust as needed */
+    left: 1210px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -320px;
+    margin-left: 1200px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1400px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 900px;
+        height: 230px;
+        padding-top: 33px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 530px;
+        margin-top: 40px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 790px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 1480px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1365px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 350px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 465px;
+            width: 1574px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            padding-top: 10px;
+            font-size: 39px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            color: white;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1430px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 60px;
+            margin-top: -365px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 60px;
+            margin-top: -70px;
+            margin-left: 1140px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1710px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 575px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    width: 800px;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 840px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -210px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -268px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -258px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -200px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -262px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -260px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 2800px){
+    body {
+            background-color: #193a7b;       
+            margin: 0;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 20px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 27px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 300px;
+            margin-left: 730px;
+            width: 470px;
+            height: 495px;
+            border: 45px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 100px;
+    color: white;
+    top: 270px; /* adjust as needed */
+    left: 1340px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 850px;
+    height: 260px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: -360px;
+    margin-left: 1320px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1470px;
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 900px;
+        height: 230px;
+        padding-top: 33px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 600px;
+        margin-top: 40px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 790px;
+  height: 380px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 1550px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 140px;
+  height: 140px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1433px;
+            font-size: 30px;
+            width: 220px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 350px;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-left: 520px;
+            width: 1574px;
+            height: 1000px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            padding-top: 10px;
+            font-size: 39px;
+            color: white;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -930px;
+            gap: 0px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 1480px;
+            font-size: 30px;
+            width: 180px;
+            height: 50px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        .connect {
+            font-size: 60px;
+            color: white;
+            margin-top: -365px;
+            margin-left: 150px;
+        }
+        .getin {
+            font-size: 60px;
+            color: white;
+            margin-top: -70px;
+            margin-left: 1140px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 500px;
+  width: 1710px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 655px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 70px;
+    margin-top: 50px;
+  max-width: 700px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 800px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 840px;
+    
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -210px;
+  left: 880px;
+  font-size: 30px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -268px;
+  left: 882px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -258px;
+  left: 883px;
+  font-size: 30px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 25px;
+    top: -200px;
+    left: 920px;
+}
+.number {
+    position: absolute;
+    font-size: 25px;
+    top: -262px;
+    left: 921px;
+}
+.gmail {
+    position: absolute;
+    font-size: 25px;
+    top: -260px;
+    left: 925px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
