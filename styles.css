@@ -1693,7 +1693,7 @@ body {
         }
         .me {
             margin-top: 150px;
-            margin-left: 455px;
+            margin-left: 435px;
             width: 300px;
             height: 305px;
             border: 15px solid rgba(0, 0, 0, 0.5);
@@ -1709,7 +1709,7 @@ body {
     animation: blink 0.7s step-end infinite;
     font-size: 60px;
     top: 450px; /* adjust as needed */
-    left: 450px; /* same as before */
+    left: 430px; /* same as before */
 }
 @keyframes blink {
     50% { border-color: transparent; }
