@@ -1643,7 +1643,7 @@ body {
 }
 .social {
   text-align: center;
-    margin-left: 0px;
+    margin-right: 0px;
   margin-bottom: 280px;
 }
 
@@ -1932,17 +1932,17 @@ body {
         .getin {
             color: white;
             font-size: 40px;
-            margin-top: -60px;
+            margin-top: -20px;
             margin-left: 740px;
         }
 
 #contactsetup {
     font-size: 20px;
     height: 300px;
-  width: 1100px;
+  width: 1130px;
   border-radius: 40px;
   margin-top: 10px;
-  margin-left: 60px;
+  margin-left: 25px;
   padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -1985,8 +1985,8 @@ body {
 }
 .social {
   text-align: center;
-  margin-left: 0px;
-  margin-bottom: 280px;
+  margin-right: 10px;
+  margin-bottom: 0px;
 }
 
 .social a {
