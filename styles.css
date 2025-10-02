@@ -253,6 +253,23 @@ body {
     margin-left: 550px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
   position: relative;
   height: 100px; /* or wherever it's going */
@@ -582,6 +599,23 @@ body {
     margin-top: 5px;
     margin-left: 550px;
     
+}
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -190px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
 }
 .location-wrapper {
     color: white;
@@ -914,6 +948,23 @@ body {
     margin-left: 550px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -190px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -1244,6 +1295,23 @@ body {
     margin-left: 550px;
     
 }
+.social {
+  text-align: center;
+  margin-right: -540px;
+  margin-top: -280px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -1573,6 +1641,23 @@ body {
     margin-left: 550px;
     
 }
+.social {
+  text-align: center;
+  margin-right: -350px;
+  margin-top: -280px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -1898,6 +1983,23 @@ body {
     margin-left: 550px;
     
 }
+.social {
+  text-align: center;
+  margin-right: -350px;
+  margin-top: -280px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -1985,6 +2087,727 @@ body {
 
 
 
+
+
+
+
+
+
+@media screen and (min-width: 375px){
+    body {
+            background-color: #193a7b;      
+            margin: 0;
+        }
+        .navbar {
+            height: 70px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 10px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 150px;
+            margin-left: 585px;
+            width: 300px;
+            height: 305px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 60px;
+    top: 450px; /* adjust as needed */
+    left: 590px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 900px;
+    height: 390px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 135px;
+    margin-left: 300px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 615px;
+            font-size: 50px;
+            width: 220px;
+            height: 70px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 880px;
+        height: 240px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 320px;
+        margin-top: 550px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  height: 500px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 350px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 350px;
+            margin-left: 560px;
+            font-size: 50px;
+            width: 350px;
+            height: 70px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 310px;
+            width: 900px;
+            height: 700px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 20px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 100px;
+            font-size: 24px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -770px;
+            gap: 20px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 720px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 40px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1200px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 170px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.social {
+  text-align: center;
+  margin-right: -350px;
+  margin-top: -280px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 425px){
+    body {
+            background-color: #193a7b;      
+            margin: 0;
+        }
+        .navbar {
+            height: 70px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: hsl(0, 0%, 100%);
+        }
+        .navdiv {
+            padding: 10px 15px 0px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                        
+        }
+        .edric a {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+        .edric a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+        }
+        li a:hover {
+            text-shadow: 0 0 5px rgb(234, 234, 236);
+
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a {
+            margin-top: 0px;
+            margin-right: 15px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .me {
+            margin-top: 150px;
+            margin-left: 745px;
+            width: 300px;
+            height: 305px;
+            border: 15px solid rgba(0, 0, 0, 0.5);
+            border-radius: 100%;   
+        }
+        .software {
+            color: white;
+    position: absolute; 
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 0.8;
+    animation: blink 0.7s step-end infinite;
+    font-size: 60px;
+    top: 450px; /* adjust as needed */
+    left: 740px; /* same as before */
+}
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+.box {
+    position: relative; 
+    padding-top: 20px;
+    background-color: #e8eced;
+    width: 900px;
+    height: 390px;
+    border: 1px solid #131414;
+    border-radius: 15px;
+    margin-top: 135px;
+    margin-left: 460px;
+    opacity: 80%;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(0, 0, 10);
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+        .skilltext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 50px;
+            margin-left: 790px;
+            font-size: 50px;
+            width: 220px;
+            height: 70px;
+            color: rgb(240, 235, 235);
+            padding-left: 35px;
+            padding-top: 13px;
+        }
+        
+        #pasikat {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 55px;
+        font-size: 35px;
+        width: 880px;
+        height: 240px;
+        padding-top: 30px;
+        position: absolute; 
+        text-align: center;
+        margin-left: 475px;
+        margin-top: 550px;
+        white-space: pre-wrap;
+        color: rgb(241, 237, 237);
+        }
+        .skillbox {
+  position: relative; 
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  height: 500px;
+  border: 1px solid #0c0d0e;
+  border-radius: 15px;
+  margin-top: 0px;
+  margin-left: 510px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Controls the space between images */
+  justify-items: center; /* Centers images horizontally in each cell */
+}
+
+/* General style for all logos */
+.skillbox img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid black;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+        .educationtext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 350px;
+            margin-left: 735px;
+            font-size: 50px;
+            width: 350px;
+            height: 70px;
+            color: rgb(240, 235, 235);
+            padding-top: 20px;
+            padding-left: 45px;
+        }
+        .educationbox {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 20px;
+            margin-top: 0px;
+            border-radius: 20px;
+            margin-left: 460px;
+            width: 900px;
+            height: 700px;
+            overflow-x: auto;
+            display: grid;
+        }
+        .educationbox img {
+            width: 150px;
+            height: 150px;
+            gap: 20px;
+            border: 5px solid black;
+            border-radius: 100px;
+        }
+        .achievements {
+            color: white;
+            padding-top: 100px;
+            font-size: 24px;
+            display: grid;
+            overflow-x: auto;
+            padding-left: 195px;
+            margin-top: -770px;
+            gap: 20px;
+        }
+        .contacttext {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 880px;
+            width: 120px;
+            height: 30px;
+            color: rgb(240, 235, 235);
+            padding-top: 10px;
+            padding-left: 27px;
+        }
+        .connect {
+            color: white;
+            font-size: 40px;
+            margin-top: -335px;
+            margin-left: 150px;
+        }
+        .getin {
+            color: white;
+            font-size: 40px;
+            margin-top: -60px;
+            margin-left: 740px;
+        }
+
+#contactsetup {
+    font-size: 20px;
+    height: 300px;
+  width: 1200px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 310px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactsetup form {
+    margin-left: 100px;
+    margin-top: -30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactsetup input, #contactsetup textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#contactsetup button {
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2820b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.getintext {
+    color: white;
+    width: 600px;
+    height: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+}
+.social {
+  text-align: center;
+  margin-right: -350px;
+  margin-top: -280px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
+.location-wrapper {
+    color: white;
+  position: relative;
+  height: 100px; /* or wherever it's going */
+}
+
+.location-wrapper .material-icons {
+  position: absolute;
+  top: -220px;
+  left: 650px;
+  font-size: 20px;
+  color: #eeeeef;
+}
+.call-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.call-wrapper .material-icons {
+  position: absolute;
+  top: -290px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.mail-wrapper {
+    color: white;
+  position: relative;
+  height: 30px; /* or wherever it's going */
+}
+.mail-wrapper .material-icons {
+  position: absolute;
+  top: -293px;
+  left: 653px;
+  font-size: 20px;
+  color: rgb(245, 242, 242);
+}
+.loc {
+    position: absolute;
+    font-size: 13px;
+    top: -217px;
+    left: 680px;
+}
+.number {
+    position: absolute;
+    font-size: 13px;
+    top: -287px;
+    left: 681px;
+}
+.gmail {
+    position: absolute;
+    font-size: 13px;
+    top: -290px;
+    left: 681px;  
+
+
+.footer {
+    background-color: red;
+    height: 400px;
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1000px){
     body {
             background-color: #193a7b;       
@@ -2030,7 +2853,7 @@ body {
         }
         .me {
             margin-top: 200px;
-            margin-left: 45px;
+            margin-left: 30px;
             width: 370px;
             height: 385px;
             border: 15px solid rgba(0, 0, 0, 0.5);
@@ -2092,7 +2915,7 @@ body {
         padding-top: 30px;
         position: absolute; 
         text-align: center;
-        margin-left: 45px;
+        margin-left: 25px;
         margin-top: 10px;
         white-space: pre-wrap;
         color: rgb(241, 237, 237);
@@ -2141,7 +2964,7 @@ body {
             padding-left: 100px;
             padding-top: 100px;
             margin-top: 0px;
-            margin-left: 40px;
+            margin-left: 27px;
             width: 1200px;
             height: 1000px;
             overflow-x: auto;
@@ -2192,10 +3015,10 @@ body {
 #contactsetup {
     font-size: 20px;
     height: 500px;
-  width: 1350px;
+  width: 1330px;
   border-radius: 40px;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 15px;
   padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -2234,6 +3057,23 @@ body {
     margin-top: 50px;
     margin-left: 740px;
     
+}
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
 }
 .location-wrapper {
     color: white;
@@ -2325,7 +3165,7 @@ body {
             margin: 0;
         }
         .navbar {
-            height: 80px;
+            height: 60px;
             width: 100%;
             z-index: 1000;
             position: fixed;
@@ -2333,14 +3173,14 @@ body {
             color: hsl(0, 0%, 100%);
         }
         .navdiv {
-            padding: 20px 15px 0px 25px;
+            padding: 7px 15px 0px 25px;
             display: flex;
             align-items: center;
             justify-content: space-between;
                         
         }
         .edric a {
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 600;
             color: white;
         }
@@ -2359,7 +3199,7 @@ body {
             margin-top: 0px;
             margin-right: 15px;
             color: white;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
         }
         .me {
@@ -2380,7 +3220,7 @@ body {
     animation: blink 0.7s step-end infinite;
     font-size: 70px;
     top: 150px; /* adjust as needed */
-    left: 510px; /* same as before */
+    left: 540px; /* same as before */
 }
 @keyframes blink {
     50% { border-color: transparent; }
@@ -2394,7 +3234,7 @@ body {
     border: 1px solid #131414;
     border-radius: 15px;
     margin-top: -280px;
-    margin-left: 500px;
+    margin-left: 530px;
     opacity: 80%;
 }
 .aboutme {
@@ -2440,7 +3280,7 @@ body {
   border: 1px solid #0c0d0e;
   border-radius: 15px;
   margin-top: 10px;
-  margin-left: 685px;
+  margin-left: 705px;
   overflow-y: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -2475,7 +3315,7 @@ body {
             padding-left: 100px;
             padding-top: 100px;
             margin-top: 0px;
-            margin-left: 65px;
+            margin-left: 75px;
             width: 1200px;
             height: 1000px;
             overflow-x: auto;
@@ -2529,7 +3369,7 @@ body {
   width: 1350px;
   border-radius: 40px;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 47px;
   padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -2569,10 +3409,27 @@ body {
     margin-left: 740px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
-  height: 100px; /* or wherever it's going */
+  height: 100px; 
 }
 
 .location-wrapper .material-icons {
@@ -2912,6 +3769,24 @@ body {
     margin-left: 740px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
+
 .location-wrapper {
     color: white;
   position: relative;
@@ -3266,6 +4141,23 @@ body {
     margin-left: 850px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -3605,6 +4497,23 @@ body {
     margin-top: 0px;
     margin-left: 840px;
     
+}
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
 }
 .location-wrapper {
     color: white;
@@ -3952,6 +4861,23 @@ body {
     margin-left: 840px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -4293,6 +5219,23 @@ body {
     margin-left: 840px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -4629,6 +5572,23 @@ body {
     margin-left: 840px;
     
 }
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
+}
 .location-wrapper {
     color: white;
   position: relative;
@@ -4958,6 +5918,23 @@ body {
     margin-top: 0px;
     margin-left: 840px;
     
+}
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
 }
 .location-wrapper {
     color: white;
@@ -5302,6 +6279,23 @@ body {
     margin-top: 0px;
     margin-left: 840px;
     
+}
+.social {
+  text-align: center;
+  margin-right: 600px;
+  margin-top: -300px;
+}
+
+.social a {
+  font-size: 40px;     
+  color: #ffffff;         
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #0077b5;         
 }
 .location-wrapper {
     color: white;
