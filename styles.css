@@ -1778,7 +1778,7 @@ body {
         }
         .me {
             margin-top: 150px;
-            margin-left: 435px;
+            margin-left: 425px;
             width: 300px;
             height: 305px;
             border: 15px solid rgba(0, 0, 0, 0.5);
@@ -1794,7 +1794,7 @@ body {
     animation: blink 0.7s step-end infinite;
     font-size: 60px;
     top: 450px; /* adjust as needed */
-    left: 430px; /* same as before */
+    left: 415px; /* same as before */
 }
 @keyframes blink {
     50% { border-color: transparent; }
@@ -1808,7 +1808,7 @@ body {
     border: 1px solid #131414;
     border-radius: 15px;
     margin-top: 135px;
-    margin-left: 155px;
+    margin-left: 145px;
     opacity: 80%;
 }
 .aboutme {
@@ -1822,7 +1822,7 @@ body {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
             margin-top: 50px;
-            margin-left: 500px;
+            margin-left: 485px;
             font-size: 50px;
             width: 220px;
             height: 70px;
@@ -1840,7 +1840,7 @@ body {
         padding-top: 30px;
         position: absolute; 
         text-align: center;
-        margin-left: 170px;
+        margin-left: 155px;
         margin-top: 550px;
         white-space: pre-wrap;
         color: rgb(241, 237, 237);
@@ -1854,7 +1854,7 @@ body {
   border: 1px solid #0c0d0e;
   border-radius: 15px;
   margin-top: 0px;
-  margin-left: 205px;
+  margin-left: 188px;
   overflow-y: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1876,7 +1876,7 @@ body {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
             margin-top: 350px;
-            margin-left: 430px;
+            margin-left: 420px;
             font-size: 50px;
             width: 350px;
             height: 70px;
@@ -1889,7 +1889,7 @@ body {
             padding-left: 20px;
             margin-top: 0px;
             border-radius: 20px;
-            margin-left: 155px;
+            margin-left: 139px;
             width: 900px;
             height: 700px;
             overflow-x: auto;
@@ -1916,7 +1916,7 @@ body {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50px;
             margin-top: 100px;
-            margin-left: 580px;
+            margin-left: 543px;
             width: 120px;
             height: 30px;
             color: rgb(240, 235, 235);
