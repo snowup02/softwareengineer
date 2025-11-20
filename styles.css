@@ -358,15 +358,20 @@ li a:hover {
 
 @media (max-width: 450px) {
 
+
   .navdiv { padding: 0 8px; }
   .edric a { font-size: 16px; margin-left: 10px; }
   ul { display: none; }          
   .hamburger { display: block; }  
 
 
-  .containerheader { padding-top: 70px; gap: 12px; }
+  .containerheader { 
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 12px; 
+  }
 .me {
-  margin-top: 100px;
+  margin-top: 20px;
   height: 300px;
   width: 300px;
   border: 3px solid #fff;
@@ -380,7 +385,7 @@ li a:hover {
   0%   { box-shadow: 0 0 5px #fff; }
   50%  { box-shadow: 0 0 20px #fff; }
   100% { box-shadow: 0 0 5px #fff; }
-}  .software { font-size: 1.6rem; min-width: 12ch; min-height: 5rem; }
+}  .software { padding-top: 0px; font-size: 1.6rem; min-width: 12ch; min-height: 4rem; }
   .aboutme {
     max-width: 300px;
   font-family: "Inter", sans-serif;
@@ -389,6 +394,7 @@ li a:hover {
   font-size: 0.7rem;
   color: rgb(255, 255, 255);
   }
+  
 }
 
 
@@ -397,7 +403,7 @@ li a:hover {
 
 
 #skillsss {
-    padding-top: 20px;
+    padding-top: 70px;
 }
 .programming {
   padding-top: 20px;
