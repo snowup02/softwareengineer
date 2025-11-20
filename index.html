@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
-                  <section id="abouttt">
+                    <section id="abouttt">
     <header>
         <nav class="navbar">
             <div class="navdiv">
@@ -37,7 +39,7 @@
       I am a Junior Developer, freelancer
       and a former student of Computer Engineering
       I specialize in Back-end and Front-end Web Development.
-      I have extensive expertise in Graphic Design, Video/Photo editing
+      I have extensive expertise in Graphic Design, Video/Photo editing 
       Social Media Management, Business Management and Content Creating.
     </p>
   </div>
@@ -48,34 +50,47 @@
 
 
  <section id="skillsss">
-  <div class="flex-control">
-    <section class="skills">        
-        <div class="skillbox">
-          <img src="images/python.jpg" alt="Python" class="sk">
-          <img src="images/Cprogram.jpg" alt="Cprogram" class="sk">
-          <img src="images/Cplus.jpg" alt="Cplus" class="sk">
-          <img src="images/netbeans.jpg" alt="netbeans" class="sk">
-          <img src="images/java.jpg" alt="java" class="sk">
-          <img src="images/html.jpg" alt="html" class="sk">
-          <img src="images/css.jpg" alt="css" class="sk">
-          <img src="images/pycharm.jpg" alt="pycharm" class="sk">
-          <img src="images/pythonista.jpg" alt="pythonista" class="sk">
-          <img src="images/codeblocks.png" alt="codeblocks" class="sk">
-          <img src="images/vscode.jpg" alt="vscode" class="sk">
-          <img src="images/tkinter.jpg" alt="tkinter" class="sk">
+  <div data-aos="fade-up" class="flex-control">
+    <section data-aos="fade-up" class="skills">
+        <div class="programming">Programming Languages & IDE'S</div>             
+        <div  class="skillbox">
+          <img data-aos="fade-right" src="images/python.jpg" alt="Python" class="sk">
+          <img data-aos="fade-right" src="images/Cprogram.jpg" alt="Cprogram" class="sk">
+          <img data-aos="fade-right" src="images/Cplus.jpg" alt="Cplus" class="sk">
+          <img data-aos="fade-right" src="images/netbeans.jpg" alt="netbeans" class="sk">
+          <img data-aos="fade-right" src="images/java.jpg" alt="java" class="sk">
+          <img data-aos="fade-right" src="images/html.jpg" alt="html" class="sk">
+          <img data-aos="fade-right" src="images/css.jpg" alt="css" class="sk">
+          <img data-aos="fade-right" src="images/pycharm.jpg" alt="pycharm" class="sk">
+          <img data-aos="fade-right" src="images/pythonista.jpg" alt="pythonista" class="sk">
+          <img data-aos="fade-right" src="images/codeblocks.png" alt="codeblocks" class="sk">
+          <img data-aos="fade-right" src="images/vscode.jpg" alt="vscode" class="sk">
+          <img data-aos="fade-right" src="images/tkinter.jpg" alt="tkinter" class="sk">
         </div>
     </section>
-        <p  id="pasikat"></p>
+    <div class="skpa">
+     <section data-aos="fade-up" class="skills2">   
+          <div class="graphic">Graphic Design/Photo & Video Editing</div>     
+        <div class="skillbox2">
+          <img data-aos="fade-left" src="images/capcut.jpg" alt="Python" class="sk2">
+          <img data-aos="fade-left" src="images/davinci.png" alt="Cprogram" class="sk2">
+          <img data-aos="fade-left" src="images/figma.png" alt="Cplus" class="sk2">
+          <img data-aos="fade-left" src="images/canva.jpg" alt="netbeans" class="sk2">
+          <img data-aos="fade-left" src="images/ps.png" alt="java" class="sk2">
+        </div>
+    </section>
+        <p data-aos="fade-up" id="pasikat"></p>
+     </div>
      </div>
     </section>
 
 <section id="educationnn">
-  <section class="education">
+  <section data-aos="fade-up" class="education">
     <div class="educationbox">
-            <img src="images/mpes.jpg" alt="mpes" class="edu">
-            <img src="images/mhhhs.jpg" alt="mhhhs" class="edu">
-            <img src="images/bsa.jpg" alt="bsa" class="edu">
-            <img src="images/bsu.jpg" alt="bsu" class="edu">
+            <img data-aos="fade-up" src="images/mpes.jpg" alt="mpes" class="edu">
+            <img data-aos="fade-up" src="images/mhhhs.jpg" alt="mhhhs" class="edu">
+            <img data-aos="fade-up" src="images/bsa.jpg" alt="bsa" class="edu">
+            <img data-aos="fade-up" src="images/bsu.jpg" alt="bsu" class="edu">
     </div>
     <div class="achievements">
               <p>Primary: Muzon Pabahay Elementary School. (2009-2015)<br>
@@ -101,7 +116,7 @@
 
 
 <section id="contacttt">
-  <section class="contact">
+  <section data-aos="fade-up" class="contact">
     <div id="contactsetup">
 
       
@@ -160,6 +175,10 @@ collaborate to create something exceptional. <br></div>
 </div>
 </div>
 </footer>
+<div class="lastp">
+  <div>© 2025 Jhon edric Mamba All Rights Reserved.</div>
+  <div>Privacy Policy    Terms Of Use</div> 
+</div>
 
 
 
@@ -234,8 +253,10 @@ collaborate to create something exceptional. <br></div>
 
 const text = `Hello there! I'm Edric and I'm literate 
 in different computer languages such as Python, 
-C-program, C++, JavaScript, HTML and CSS.
-I enjoy learning and developing web and desktop 
+C-program, C++, JavaScript, HTML and CSS. I also
+have deep understanding in Graphic Design, Video &
+Photo Editing, Business & Social Media Management and
+Content Creation I enjoy learning and developing  
 applications. I do this just for fun ^_^`;
 
   const typingText = document.getElementById("pasikat");
@@ -259,7 +280,10 @@ applications. I do this just for fun ^_^`;
   typeChar(); // Start typing
 </script>
   
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
-
